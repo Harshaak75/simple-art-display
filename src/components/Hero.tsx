@@ -37,7 +37,7 @@ const Hero = () => {
       <div className="text-center z-10">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 animate-fade-in">
-            John Doe
+            Harsha A.K
           </h1>
           <div className="text-xl md:text-2xl text-blue-400 h-8">
             {text}

@@ -3,10 +3,10 @@ import { User, Award, Coffee, Code } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { icon: Code, label: "Projects Completed", value: "50+" },
-    { icon: Coffee, label: "Cups of Coffee", value: "1000+" },
-    { icon: Award, label: "Awards Won", value: "10+" },
-    { icon: User, label: "Happy Clients", value: "25+" },
+    { icon: Code, label: "Projects Completed", value: "15+" },
+    { icon: Coffee, label: "Cups of Coffee", value: "500+" },
+    { icon: Award, label: "Awards Won", value: "2+" },
+    { icon: User, label: "Happy Clients", value: "2+" },
   ];
 
   return (
@@ -22,17 +22,13 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-gray-300 text-lg leading-relaxed">
-              Hello! I'm a passionate full-stack developer with over 5 years of experience 
-              creating digital solutions that make a difference. I love turning complex 
-              problems into simple, beautiful, and intuitive designs.
+              Hello! I'm an enthusiastic full-stack developer at the beginning of my professional journey. I'm passionate about building digital solutions that are not only functional but also user-friendly and visually appealing. I enjoy learning how to turn complex problems into simple and intuitive designs.
             </p>
             <p className="text-gray-300 text-lg leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing 
-              to open-source projects, or enjoying a good cup of coffee while planning my 
-              next big project.
+             When I'm not coding, I love exploring new technologies and sipping on a good cup of coffee while brainstorming ideas for future projects.
             </p>
             <div className="flex flex-wrap gap-3">
-              {["JavaScript", "React", "Node.js", "Python", "PostgreSQL"].map((tech) => (
+              {["JavaScript", "React", "Node.js", "C++", "Express.js", "Typescript", "Prisma", "Tailwindcss", "PostgreSQL"].map((tech) => (
                 <span
                   key={tech}
                   className="bg-slate-800 text-blue-400 px-3 py-1 rounded-full text-sm"

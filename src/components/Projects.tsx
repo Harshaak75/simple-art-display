@@ -5,19 +5,19 @@ const Projects = () => {
   const projects = [
     {
       title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
+      description: "A full-stack e-commerce solution with HTML, Node.js, and PostgreSQL. Features include user authentication and admin dashboard.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      technologies: ["HTML", "Css", "PostgreSQL", "Javascript", "Node.js", "Express.js"],
       liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/Harshaak75/E-Commerce",
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      title: "Brainly.ai",
+      description: "Brainly.ai is an AI-powered note-keeping assistant that remembers your notes and automatically sends smart reminders based on content and due dates.",
       image: "/api/placeholder/400/250",
-      technologies: ["Vue.js", "Express", "MongoDB", "Socket.io"],
+      technologies: ["React.js", "Express.js", "MongoDB", "Node.js", "Tailwindcss", "Typescript"],
       liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/Harshaak75/Brainly.ai",
     },
     {
       title: "Weather Dashboard",
@@ -25,16 +25,16 @@ const Projects = () => {
       image: "/api/placeholder/400/250",
       technologies: ["React", "Chart.js", "Weather API", "CSS3"],
       liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/Harshaak75/WeatherApp",
     },
-    {
-      title: "Social Media Analytics",
-      description: "A comprehensive analytics dashboard for social media metrics with data visualization, reporting, and automated insights generation.",
-      image: "/api/placeholder/400/250",
-      technologies: ["Python", "Django", "D3.js", "Redis"],
-      liveLink: "#",
-      githubLink: "#",
-    },
+    // {
+    //   title: "Social Media Analytics",
+    //   description: "A comprehensive analytics dashboard for social media metrics with data visualization, reporting, and automated insights generation.",
+    //   image: "/api/placeholder/400/250",
+    //   technologies: ["Python", "Django", "D3.js", "Redis"],
+    //   liveLink: "#",
+    //   githubLink: "#",
+    // },
   ];
 
   return (

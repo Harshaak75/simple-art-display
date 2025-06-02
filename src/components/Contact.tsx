@@ -46,7 +46,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-white font-semibold">Email</h3>
-                <p className="text-gray-300">john.doe@example.com</p>
+                <p className="text-gray-300">harshaak75@gmail.com</p>
               </div>
             </div>
             
@@ -56,7 +56,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-white font-semibold">Phone</h3>
-                <p className="text-gray-300">+1 (555) 123-4567</p>
+                <p className="text-gray-300">6360457358</p>
               </div>
             </div>
             
@@ -66,7 +66,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-white font-semibold">Location</h3>
-                <p className="text-gray-300">San Francisco, CA</p>
+                <p className="text-gray-300">Bangalore</p>
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ const Contact = () => {
         {/* Footer */}
         <div className="mt-20 pt-8 border-t border-slate-700 text-center">
           <p className="text-gray-400">
-            © 2024 John Doe. All rights reserved.
+            © 2025 Harsha A K. All rights reserved.
           </p>
         </div>
       </div>
